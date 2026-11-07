@@ -13,7 +13,7 @@ public class VersionController : ControllerBase
         return Ok(new
         {
             Application = "Training Management API",
-            Version = "1.0.0",
+            Version = "1.0.1",
             Environment = "Azure App Service",
             Deployment = "GitHub Actions"
         });
